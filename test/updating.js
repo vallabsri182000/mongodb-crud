@@ -7,7 +7,7 @@ describe('Updating records', function(){
   // Add a character to the db before each tests
   beforeEach(function(done){
     char = new task({
-       description:'write my record',
+       description:'Start record',
        completed: false
        
    });
@@ -18,7 +18,7 @@ describe('Updating records', function(){
    });
 
    char = new task1({
-    description:'Do my project',
+    description:'Start project',
     completed: true
 });
 char.save().then(function(){
@@ -29,7 +29,7 @@ char.save().then(function(){
 
 
     char = new task2({
-    description:'Learn MongoDB',
+    description:'read SQL',
     completed: true
     });
 
@@ -40,7 +40,7 @@ char.save().then(function(){
   
 
         char = new task3({
-        description:'Do my assignment',
+        description:'Start assignment',
         completed: false
        });
 
