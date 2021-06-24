@@ -6,14 +6,14 @@ const task3 = require('../modules/task');
 
 
 //Describe tests
-describe('Saving Records',function(){
+describe('Save Records',function(){
   
     //Create test
     
-    it('Saves a record to database', function(done){
+    it('Save record to db', function(done){
 
          char = new task({
-            description:'Write my record',
+            description:'Start record',
             completed: false
         });
 
@@ -24,7 +24,7 @@ describe('Saving Records',function(){
         });
 
         char = new task1({
-            description:'Do my project',
+            description:'Start project',
             completed: true
         });
 
@@ -35,7 +35,7 @@ describe('Saving Records',function(){
         });
     
          char = new task2({
-        description:'Learn MongoDB',
+        description:'read SQL',
         completed: true
         });
 
@@ -47,7 +47,7 @@ describe('Saving Records',function(){
         });
 
          char = new task3({
-         description:'Do my assignment',
+         description:'Start assignment',
          completed: false
         });
 
