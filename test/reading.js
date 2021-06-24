@@ -12,7 +12,7 @@ describe('Finding Records',function(){
     
     beforeEach(function(done){
          char = new task({
-            description:'Write my record',
+            description:'Start record',
             completed: false
             
         });
@@ -24,7 +24,7 @@ describe('Finding Records',function(){
 
       
          char = new task1({
-            description:'Do my project',
+            description:'Start project',
             completed: true
         });
         char.save().then(function(){
@@ -35,7 +35,7 @@ describe('Finding Records',function(){
        
 
             char = new task2({
-            description:'Learn MongoDB',
+            description:'read SQL',
             completed: true
             });
 
@@ -46,7 +46,7 @@ describe('Finding Records',function(){
           
 
                 char = new task3({
-                description:'Do my assignment',
+                description:'Start assignment',
                 completed: false
                });
        
